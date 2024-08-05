@@ -201,7 +201,7 @@ console.log("Acceso concedido"); */
 
 
 
-//EJEMPLO DE SWITCH 
+/* //EJEMPLO DE SWITCH 
 let cuidarTrabajo = prompt("¿Como vas a llegar al trabajo hoy? temprano, justo, tarde, nunca sali")
 
 switch (cuidarTrabajo) {
@@ -228,4 +228,49 @@ switch (cuidarTrabajo) {
                 break;
     default:
         alert("introdujiste una respuesta no adnmisible");
+}
+ */
+
+/// ejercicio de algoritmo simple
+
+/* //con numeros
+let num1 = 5;
+let num2 = 10;
+
+let multi = num1 * num2;
+console.log(multi);
+
+//con strings
+let msj1 = "avengers";
+let msj2 = " endgame";
+
+let allmsj = msj1 + msj2;
+console.log(allmsj); */
+
+/// ejecicios de algoritmo con condicional 
+
+/* //ejemplo1 con un bucle do while y una condicional
+let superman;
+
+do {
+    superman = prompt("¿Quién es Superman?");
+    if (superman == "clark kent") {
+        alert("¡DESCUBRISTE LA IDENTIDAD DE SUPERMAN!");
+        break; // Salir del bucle si la respuesta es correcta
+    } else {
+        alert("No es correcto, intenta de nuevo.");
+    }
+} while (superman !== "clark kent"); */
+
+//algoritmo simple + algoritmo con condicional 
+
+let actualidad = prompt("Ingrese año actual");
+let nacimiento = prompt("Ingrese año de nacimiento");
+
+let edad = actualidad - nacimiento;
+
+if(edad % 2 === 0){
+    alert("tu edad es un numero par");
+}else {
+    alert("tu edad es un numero impar");
 }
